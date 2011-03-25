@@ -1,3 +1,15 @@
 [submodule "bundle/winmanager"]
 	path = bundle/winmanager
 	url = https://github.com/vim-scripts/winmanager.git
+[submodule "bundle/bufexplorer"]
+	path = bundle/bufexplorer
+	url = https://github.com/corntrace/bufexplorer.git
+[submodule "bundle/taglist"]
+	path = bundle/taglist
+	url = https://github.com/esukram/taglist.vim.git
+[submodule "bundle/trinity"]
+	path = bundle/trinity
+	url = https://github.com/vim-scripts/trinity.vim.git
+[submodule "bundle/srcexpl"]
+	path = bundle/srcexpl
+	url = https://github.com/vim-scripts/Source-Explorer-srcexpl.vim.git
