@@ -29,6 +29,25 @@ nmap <C-t><C-l>  :TrinityToggleTagList<CR>
 nmap <C-t><C-n>  :TrinityToggleNERDTree<CR> 
 
 
+" Enable omni completion. (Ctrl-X Ctrl-O)
+autocmd FileType html,markdown setlocal omnifunc=htmlcomplete#CompleteTags
+autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
+autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
+autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
+autocmd FileType css set omnifunc=csscomplete#CompleteCSS
+autocmd FileType c set omnifunc=ccomplete#Complete
+autocmd FileType java set omnifunc=javacomplete#Complete
+
+" use syntax complete if nothing else available
+if has("autocmd") && exists("+omnifunc")
+  autocmd Filetype *
+              \	if &omnifunc == "" |
+              \		setlocal omnifunc=syntaxcomplete#Complete |
+              \	endif
+endif
+
+" --- SuperTab
+let g:SuperTabDefaultCompletionType = "context"
 
 set sw=4
 set ts=4
