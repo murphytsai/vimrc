@@ -20,13 +20,13 @@ behave mswin
 
 " murphy added"
 " Open and close all the three plugins on the same time 
-nmap <F8>   :TrinityToggleAll<CR> 
+nmap <C-t><C-a>  :TrinityToggleAll<CR> 
 " Open and close the srcexpl.vim separately 
-nmap <F9>   :TrinityToggleSourceExplorer<CR> 
+nmap <C-t><C-s>   :TrinityToggleSourceExplorer<CR> 
 " Open and close the taglist.vim separately 
-nmap <F10>  :TrinityToggleTagList<CR> 
+nmap <C-t><C-l>  :TrinityToggleTagList<CR> 
 " Open and close the NERD_tree.vim separately 
-nmap <F11>  :TrinityToggleNERDTree<CR> 
+nmap <C-t><C-n>  :TrinityToggleNERDTree<CR> 
 
 
 
