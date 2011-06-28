@@ -1,0 +1,2 @@
+1. after downloading , execute the following command to update submodules
+$ git submodule update --init
