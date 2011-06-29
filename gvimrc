@@ -1,9 +1,9 @@
 if has("gui")
-    set guifont=Bitstream\ Vera\ Sans\ Mono\ 11 
-"    set guifont=Courier\ New\ 11 
+    set guifont=Bitstream\ Vera\ Sans\ Mono\ 13
+"    set guifont=Courier\ New\ 13 
 endif
-set guifont=Bitstream\ Vera\ Sans\ Mono\ 11 
-"set guifont=Courier\ New\ 11 
+set guifont=Bitstream\ Vera\ Sans\ Mono\ 13 
+"set guifont=Courier\ New\ 13 
 set nocompatible
 "source $VIMRUNTIME/vimrc_example.vim
 source $VIMRUNTIME/mswin.vim
