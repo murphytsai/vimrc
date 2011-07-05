@@ -17,6 +17,15 @@ source $VIMRUNTIME/vimrc_example.vim
 source $VIMRUNTIME/mswin.vim
 behave mswin
 
+if has('quickfix')
+    set cscopequickfix=s-,c-,d-,i-,t-,e-
+endif
+
+if has("cscope")
+if exists("cscope.out") "OK in VIM 7.0
+cs add cscope.out
+endif
+endif
 
 " murphy added"
 " Open and close all the three plugins on the same time 

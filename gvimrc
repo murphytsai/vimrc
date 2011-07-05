@@ -9,6 +9,9 @@ set nocompatible
 source $VIMRUNTIME/mswin.vim
 behave mswin
 
+if has('quickfix')
+    set cscopequickfix=s-,c-,d-,i-,t-,e-
+endif
 
 " murphy added"
 let Tlist_Use_Right_Window=1 
