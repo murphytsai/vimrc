@@ -82,6 +82,9 @@ let Tlist_Inc_Winwidth = 0
 map <F8> :Tlist<CR> "«öF8 ¦Û°Ê¥´¶}Tlist
 map <F9> :wincmd p<CR> "¨â­Óµøµ¡¤Á´«
 
+" FOR MultipleSearch
+let g:MultipleSearchMaxColors=8
 set sw=4
 set ts=4
-color torte
+set nu
+color slate

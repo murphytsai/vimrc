@@ -58,7 +58,9 @@ endif
 " --- SuperTab
 let g:SuperTabDefaultCompletionType = "context"
 
+" FOR MultipleSearch
+let g:MultipleSearchMaxColors=8
 set sw=4
 set ts=4
 set nu
-color torte
+color slate
