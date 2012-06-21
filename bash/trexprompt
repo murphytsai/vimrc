@@ -62,7 +62,7 @@ function prompt_command
     local hostn=$(hostname -s)
     local usern=$(whoami)
 
-    if [ ${#PWD} -gt 50 ];
+    if [ ${#PWD} -gt 100 ];
     then
         local working_dir=${PWD:0:10}...${PWD:$((${#PWD}-37))};
     else
