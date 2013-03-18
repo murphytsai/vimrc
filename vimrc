@@ -1,4 +1,4 @@
-" murphy's vimrc
+" murphy's mac vimrc
 "
 "
 
@@ -60,6 +60,15 @@ let g:SuperTabDefaultCompletionType = "context"
 
 " FOR MultipleSearch
 let g:MultipleSearchMaxColors=8
+
+" FOR MiniBufExplorer {
+	let g:miniBufExplMapWindowNavVim = 1 
+	let g:miniBufExplMapWindowNavArrows = 1 
+	let g:miniBufExplMapCTabSwitchBufs = 1 
+	let g:miniBufExplModSelTarget = 1
+	let g:miniBufExplMoreThanOne=0
+" }
+
 set sw=4
 set ts=4
 set nu
